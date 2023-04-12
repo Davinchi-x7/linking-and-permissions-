@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Fam_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="29dp"
+        android:text="Family bank"
+        app:layout_constraintBottom_toTopOf="@+id/Stan_btn"
+        app:layout_constraintStart_toStartOf="@+id/Stan_btn" />
+
+    <Button
+        android:id="@+id/Coop_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="33dp"
+        android:text="Coop bank"
+        app:layout_constraintBottom_toBottomOf="@+id/Fam_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Fam_btn" />
+
+    <Button
+        android:id="@+id/Stan_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="60dp"
+        android:text="Stanbic bank"
+        app:layout_constraintEnd_toStartOf="@+id/Absa_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Absa_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="31dp"
+        android:text="ABSA"
+        app:layout_constraintStart_toStartOf="@+id/Coop_btn"
+        app:layout_constraintTop_toBottomOf="@+id/Coop_btn" />
+
+    <Button
+        android:id="@+id/kcb_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="59dp"
+        android:text="KCB bank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Stan_btn" />
+
+    <Button
+        android:id="@+id/Equity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="11dp"
+        android:text="Equity bank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Absa_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
