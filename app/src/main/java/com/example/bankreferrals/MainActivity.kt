@@ -35,15 +35,15 @@ class MainActivity : AppCompatActivity() {
             val gotoAbsa_bank = Intent(this, Absa_bank::class.java)
             startActivity(gotoAbsa_bank)
         }
-        Coop.setOnClickListener(){
+        Stan.setOnClickListener(){
             val gotoStanbic_bank = Intent(this, Stanbic_bank::class.java)
             startActivity(gotoStanbic_bank)
         }
-        Coop.setOnClickListener(){
+        KCB.setOnClickListener(){
             val gotoKCB = Intent(this, KCB_bank::class.java)
             startActivity(gotoKCB)
         }
-        Coop.setOnClickListener(){
+        Equity.setOnClickListener(){
             val gotoEquity_bank = Intent(this, Equity_bank::class.java)
             startActivity(gotoEquity_bank)
         }

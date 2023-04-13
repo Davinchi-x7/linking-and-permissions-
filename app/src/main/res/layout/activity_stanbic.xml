@@ -8,6 +8,7 @@
     tools:context=".Stanbic_bank">
 
     <WebView
+        android:id="@+id/Stan"
         android:layout_width="409dp"
         android:layout_height="729dp"
         tools:layout_editor_absoluteX="1dp"

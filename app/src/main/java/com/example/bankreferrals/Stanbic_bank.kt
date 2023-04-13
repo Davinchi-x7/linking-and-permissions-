@@ -9,7 +9,7 @@ class Stanbic_bank : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stanbic)
-        Stanbic = findViewById(R.id.Stanbic)
+        Stanbic = findViewById(R.id.Stan)
         val webSettings = Stanbic.settings
         webSettings.javaScriptEnabled = true
         Stanbic.loadUrl("https://Stanbicbank.com")
